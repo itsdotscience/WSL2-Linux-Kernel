@@ -2732,7 +2732,8 @@ CONFIG_USB_ACM=y
 #
 # also be needed; see USB_STORAGE Help for more info
 #
-# CONFIG_USB_STORAGE is not set
+CONFIG_USB_STORAGE=m
+CONFIG_USB_UAS=m
 
 #
 # USB Imaging devices
